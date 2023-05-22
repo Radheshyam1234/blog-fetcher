@@ -21,7 +21,7 @@ export const SearchResults = () => {
     <div className="search-results-wrapper">
       <div className="search-results">
         {(searchTerm !== "" ? filteredData : blogsData)?.map((data) => {
-          return <BlogCard data={data} />;
+          return <BlogCard data={data} key={data.id}/>;
         })}
       </div>
 
