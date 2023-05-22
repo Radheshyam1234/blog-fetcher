@@ -3,7 +3,10 @@
   width: 100%;
   padding:0.5rem 7.5rem; 
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  position:sticky;
+  top:0;
+  z-index:2;
 }
 .navbar img{
 
