@@ -1,0 +1,33 @@
+.blogDetailsCard-wrapper {
+  position: relative;
+}
+
+.blogDetailsCard img {
+  height: 22.5rem;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.blogDetailsCard-details {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blogDetailsCard-wrapper-close-icon {
+  position: absolute;
+  cursor: pointer;
+}
+.blogDetailsCard-details-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: #252525;
+}
+
+.blogDetailsCard-details-body {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #252525;
+}

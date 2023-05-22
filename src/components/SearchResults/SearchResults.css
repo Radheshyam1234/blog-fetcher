@@ -1,0 +1,11 @@
+.search-results {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+}
+.no-data-text {
+  text-align: center;
+  font-size: 2rem;
+  padding: 4rem;
+  font-weight: 800;
+}
